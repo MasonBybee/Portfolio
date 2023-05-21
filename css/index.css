@@ -15,14 +15,17 @@ nav ol {
     display: flex;
     flex-direction: row;
     justify-content:center;
+    padding: 0;
 }
 nav ol li{
     padding: 20px;
 }
 
 a {
-    color: green;
-    text-decoration: none
+    color: #246933;
+    text-decoration: none;
+    outline: 2;
+    font-size: 1.2em;
 }
 h1{
     padding: 0;
@@ -35,7 +38,7 @@ h2 {
 }
 
 .scrolled {
-
+    /* transition: ease-in-out 500ms; */
     display: flex;
     position: fixed;
     left: 50%;
@@ -48,4 +51,8 @@ h2 {
 
 p {
     font-size: 2em;
+}
+
+html {
+    scroll-behavior: smooth;
 }
